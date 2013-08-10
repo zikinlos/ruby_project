@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Depot</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body class='<%= controller.controller_name %>'>
+  <div id="warapper">
+    <div id="header">
+      <div id="date">
+        <%= DateTime.now.strftime("%A, %d-%B-%Y")%>
+      </div>
+    </div>
+    <div id="content">
+    <%= yield %>
+    </div>
+    <div id="footer">
+      <p>2013&nbsp;&copy;&nbsp;ZKL Computer</p>
+    </div>
+  </div>
+</body>
+</html>

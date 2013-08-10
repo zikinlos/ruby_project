@@ -1,0 +1,76 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+ 
+ body {
+	font-family:"Time New Roment", Arail, Venlida;
+	background-color:#1230d6;
+}
+
+div, img, h1, h2, h3, p, table, tr, td, form, {
+	margin: 0;
+	padding: 0;
+}
+
+/* Reset all slyle
+-----------------------------------------------------------------------------*/ 
+* { 
+    margin: 0; 
+    padding: 0; 
+}
+
+
+/* Reset Tables slyle
+-----------------------------------------------------------------------------*/ 
+
+table 
+  {  
+  border-spacing: 0; 
+  border-collapse: collapse; 
+} 
+
+td  
+  { 
+  text-align: left; 
+  font-weight: normal; 
+}
+
+img {
+	border: none;
+}
+/*=====================================*/
+ 
+#date {
+  background-color: #212b28;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+}
+
+h1, h2, h3 {
+  padding: 5px 0 ;
+  margin: 5px 0;
+}
+
+#footer {
+	margin-top: 10px;
+	height: 50px;
+	background-color: #212b28;
+}
+#footer p {
+		color:#deeff1;
+		padding: 15px;
+		text-align: center;
+		font-size: 16px;
+	}
+ 
